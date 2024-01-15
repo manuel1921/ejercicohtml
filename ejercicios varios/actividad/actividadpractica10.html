@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8"/>
+		<title>Ejemplo de formulario</title>
+	</head>
+
+	<body>
+	
+		<form action="envio.php" method="post">
+			<table>
+				<tr>
+					<td>Seleciona tu preferncia</td>
+					<td>
+						<select name="lista">
+							<option selected>---</option>
+							<option value="D">Deporte</option>
+							<option value="V">Videojuegos</option>
+							<option value="Mo">Moda</option>
+							<option value="Mu">Musica</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Hablanos de ti</td>
+					<td>
+						<textarea name="descriptión"  row="10" col="30"></textarea>
+					</td>
+					<tr>
+						<td></td>
+						<td><input type="submit" name="Enviar" name="envio"/></td>
+					</tr>
+				</tr>
+			</table>
+		
+		
+		</form>
+	
+	
+	</body>
+		
+	
+
+</html>

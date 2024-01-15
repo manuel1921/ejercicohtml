@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8"/>
+		<title>lista anidadas con style</title>
+      <style>
+           /*las listas ol azul  y las otras rojas*/
+           ol{color:blue}
+           ul{color: chocolate;}
+           .negrita{font-weight: bold;}
+           #cambio_color{color:red}
+      </style>
+	</head>
+
+	<body>
+        <!--asemos la estructura de la lista ordenada por defecto-->
+        <ol>
+            <li>Rojo</li> 
+            <!-- Anidamos listas -->
+            <li>Azul</li>
+            <!--le a ñadimos color y formato de letas-->
+            <ul  style="color: green" class="negrita">
+                <li>Celeste</li>
+                <li style="color: yellow" ide="cambo_color">Marino</li>
+            </ul>
+            <li>Verde</li>
+        <!--lista nueva-->
+        </ol>
+        <ul>
+            <li>Celeste</li>
+            <ul>
+                <li>claro</li>
+                <ol>
+                    <li>claro</li>
+                    <!--otro lista-->
+                </ol>
+                <li>oscuro</li>
+            </ul>
+            <li>Marino</li>
+        </ul>
+        <!--lista 3 ordenada-->
+        <ol>
+            <li>Capitulo 1</li>
+            <!--le cambiamos los numero a otra cosa con el atiburo type-->
+                <ol type="a">
+                    <li>Titulo 1</li>
+                    <li>Titulo 2</li>
+                </ol>
+
+            <li>Capitulo 2</li>
+            <li>capitulo 3</li>
+        </ol>
+        <!--lista no ordenada-->
+        <ul type="circle">
+            <li>primavera</li>
+            <li>verano</li>
+            <li>otoño</li>
+            <li>invierno</li>
+        </ul>
+
+	</body>
+
+</html>
